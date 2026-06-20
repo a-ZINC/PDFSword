@@ -18,5 +18,28 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CSVParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSVMapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CSVParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TImer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSVType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSVMapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
