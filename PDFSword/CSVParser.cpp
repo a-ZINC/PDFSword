@@ -49,4 +49,4 @@ template std::vector<Book> CSVParser::parse<Book>(std::string fileName);
 template std::vector<std::vector<std::string>> CSVParser::parse<std::vector<std::string>>(std::string fileName);
 
 template void CSVParser::print<Book>(std::vector<Book>& rows) const;
-//template void CSVParser::print<std::vector<std::string>>(std::vector<std::vector<std::string>>& rows) const;
+template void CSVParser::print<std::vector<std::string>>(std::vector<std::vector<std::string>>& rows) const;

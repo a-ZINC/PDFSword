@@ -148,12 +148,14 @@
     <ClCompile Include="CSVMapper.cpp" />
     <ClCompile Include="CSVParser.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PDFSplit.cpp" />
     <ClCompile Include="Timer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CSVType.h" />
     <ClInclude Include="CSVMapper.h" />
     <ClInclude Include="CSVParser.h" />
+    <ClInclude Include="PDFSplit.h" />
     <ClInclude Include="TImer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
